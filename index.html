@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/css/reset.css" />
+    <link rel="stylesheet" href="./assets/css/cabecalho/cabecalho.css" />
+    <link rel="stylesheet" href="./assets/css/cabecalho/cabecalho-logo.css" />
+    <link rel="stylesheet" href="./assets/css/menu/menu.css" />
+    <link rel="stylesheet" href="./assets/css/menu/menu-lista.css" />
+    <link rel="stylesheet" href="./assets/css/menu/menu-item.css" />
+    <link rel="stylesheet" href="./assets/css/menu/menu-link.css" />
+    <link rel="stylesheet" href="./assets/css/principal/principal.css" />
+    <link rel="stylesheet" href="./assets/css/principal/principal-titulo.css" />
+    <link rel="stylesheet" href="./assets/css/flexBox/flexBox.css" />
+    <link rel="stylesheet" href="./assets/css/flexBox/flexBox-figure.css" />
+    <link rel="stylesheet" href="./assets/css/flexBox/flexBox-banner.css" />
+    <link rel="stylesheet" href="./assets/css/gridLayout/gridLayout.css" />
+    <link rel="stylesheet" href="./assets/css/gridLayout/gridLayout-div.css" />
+    <link
+      rel="stylesheet"
+      href="./assets/css/gridLayout/gridLayout-banner.css"
+    />
+    <title>CSSGRID Vs FLEXBOX</title>
+  </head>
+  <body>
+    <header class="cabecalho">
+      <a class="cabecalho__logo">Logo</a>
+      <nav class="menu">
+        <ul class="menu__lista">
+          <li class="menu__item"><a class="menu__link" href="#">Sobre</a></li>
+          <li class="menu__item">
+            <a class="menu__link" href="#">Produtos</a>
+          </li>
+          <li class="menu__item"><a class="menu__link" href="#">Contato</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main class="principal">
+      <h1 class="principal__titulo">Section FlexBox</h1>
+      <section class="flexBox">
+        <figure class="flexBox__figure">
+          <img class="flexBox__banner" src="./assets/img/lobo1.jpg" />
+          <figcaption>Legenda</figcaption>
+        </figure>
+        <figure class="flexBox__figure">
+          <img class="flexBox__banner" src="./assets/img/lobo2.jpg" />
+          <figcaption>Legenda</figcaption>
+        </figure>
+        <figure class="flexBox__figure">
+          <img class="flexBox__banner" src="./assets/img/lobo3.jpg" />
+          <figcaption>Legenda</figcaption>
+        </figure>
+        <figure class="flexBox__figure">
+          <img class="flexBox__banner" src="./assets/img/lobo1.jpg" />
+          <figcaption>Legenda</figcaption>
+        </figure>
+        <figure class="flexBox__figure">
+          <img class="flexBox__banner" src="./assets/img/lobo2.jpg" />
+          <figcaption>Legenda</figcaption>
+        </figure>
+        <figure class="flexBox__figure">
+          <img class="flexBox__banner" src="./assets/img/lobo3.jpg" />
+          <figcaption>Bicicletas</figcaption>
+        </figure>
+      </section>
+
+      <h1 class="principal__titulo">Section Grid layout</h1>
+      <section class="gridLayout">
+        <div class="gridLayout__div">
+          <img class="gridLayout__banner" src="./assets/img/lobo1.jpg" />
+          <p>Legenda</p>
+        </div>
+        <div class="gridLayout__div">
+          <img class="gridLayout__banner" src="./assets/img/lobo2.jpg" />
+          <p>Legenda</p>
+        </div>
+        <div class="gridLayout__div">
+          <img class="gridLayout__banner" src="./assets/img/lobo1.jpg" />
+          <p>Legenda</p>
+        </div>
+        <div class="gridLayout__div">
+          <img class="gridLayout__banner" src="./assets/img/lobo3.jpg" />
+          <p>Legenda</p>
+        </div>
+        <div class="gridLayout__div">
+          <img class="gridLayout__banner" src="./assets/img/lobo1.jpg" />
+          <p>Legenda</p>
+        </div>
+        <div class="gridLayout__div">
+          <img class="gridLayout__banner" src="./assets/img/lobo3.jpg" />
+          <p>Bicicletas</p>
+        </div>
+        <div class="gridLayout__div">
+          <img class="gridLayout__banner" src="./assets/img/lobo2.jpg" />
+          <p>Legenda</p>
+        </div>
+        <div class="gridLayout__div">
+          <img class="gridLayout__banner" src="./assets/img/lobo1.jpg" />
+          <p>Legenda</p>
+        </div>
+        <div class="gridLayout__div">
+          <img class="gridLayout__banner" src="./assets/img/lobo3.jpg" />
+          <p>Bicicletas</p>
+        </div>
+        <div class="gridLayout__div" id="gridLayout__div--anuncio">
+          <img class="gridLayout__banner" src="./assets/img/lobo2.jpg" />
+          <p>Propaganda</p>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>

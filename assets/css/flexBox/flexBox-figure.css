@@ -1,0 +1,6 @@
+.flexBox__figure {
+  flex-shrink: 1; /* o quanto um item vai reduzir referente ao outro */
+  flex-grow: 1; /* qual vai ser o tamanho do item referente ao outro */
+  flex-basis: 200px; /* tamanho minimo que ele vai ter até ocorrer quebra de linha */
+  margin: 10px; /* retirar margin padrao da tag figure */
+}
